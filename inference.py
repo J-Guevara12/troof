@@ -10,8 +10,8 @@ IOU_THRESHOLD = 0.5
 
 start = time.perf_counter()
 # --- Configuration ---
-SEGFORMER_MODEL_PATH = "troof/segformer.tflite"
-YOLO_MODEL_PATH = "troof/yolov8s.tflite"
+SEGFORMER_MODEL_PATH = "segformer.tflite"
+YOLO_MODEL_PATH = "yolov8s.tflite"
 IMAGE_PATH = sys.argv[1]
 INPUT_SIZE = (512, 512)
 
