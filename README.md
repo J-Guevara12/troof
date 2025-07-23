@@ -27,3 +27,12 @@ He acá un ejemplo
 curl https://project.inria.fr/aerialimagelabeling/files/2011/12/vie1.jpg > image.jpg
 python inference.py image.jpg
 ```
+
+Quieres probar con más imagenes? intenta este comando:
+
+```bash
+curl -L -o skycity-the-city-landscape-dataset.zip https://www.kaggle.com/api/v1/datasets/download/yessicatuteja/skycity-the-city-landscape-dataset
+unzip skycity-the-city-landscape-dataset.zip
+sh inference.sh
+```
+Si quieres analizar más imagenes modifica `inference.sh`
